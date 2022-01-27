@@ -4,32 +4,26 @@ body {
 }
 
 input[type=text]::-moz-placeholder {
-  /* Firefox, Chrome, Opera */
   padding-left: 10px;
 }
 
 input[type=text]:-ms-input-placeholder {
-  /* Firefox, Chrome, Opera */
   padding-left: 10px;
 }
 
 input[type=text]::placeholder {
-  /* Firefox, Chrome, Opera */
   padding-left: 10px;
 }
 
 input[type=email]::-moz-placeholder {
-  /* Firefox, Chrome, Opera */
   padding-left: 10px;
 }
 
 input[type=email]:-ms-input-placeholder {
-  /* Firefox, Chrome, Opera */
   padding-left: 10px;
 }
 
 input[type=email]::placeholder {
-  /* Firefox, Chrome, Opera */
   padding-left: 10px;
 }
 
@@ -50,7 +44,7 @@ input[type=email]::placeholder {
   font-weight: 600;
   font-size: 60px;
   line-height: 68px;
-  max-width: 1100px;
+  max-width: 76.38%;
   margin: 0;
 }
 
@@ -60,30 +54,30 @@ input[type=email]::placeholder {
   margin: 0 auto;
   background-color: white;
   font-family: "Inter";
-}
-
-.header__wrapper {
-  width: 1043px;
-  margin: auto;
-  padding-top: 30px;
+  box-sizing: border-box;
 }
 
 .header {
   position: relative;
-  width: 1420px;
+  width: 98.6%;
+  height: 650px;
   margin: 0 auto 60px;
   background-color: #222222;
+  border-radius: 20px;
 }
 .header .header__logo {
-  width: 40px;
+  width: 360px;
   height: 40px;
-  margin: 0 0 60px;
+  padding-top: 40px;
+  margin: 0 auto 60px;
 }
 .header .header__title {
-  font-weight: 300px;
-  margin: 0 0 28px;
-  max-width: 650px;
-  max-height: 138px;
+  max-width: 76.38%;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  margin: 0 auto 28px;
+  font-weight: bold;
   font-size: 60px;
   line-height: 69px;
   color: white;
@@ -91,19 +85,26 @@ input[type=email]::placeholder {
 .header .header__text {
   font-size: 18px;
   line-height: 26px;
-  max-width: 450px;
+  max-width: 76.38%;
   color: white;
   opacity: 0.7;
+  margin: 0 auto 0;
 }
 .header .header__button {
   width: 240px;
   height: 54px;
-  margin: 108px 0 120px;
+  margin: 110px 0 0 160px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .header .header__main-image {
   outline-color: black;
   position: absolute;
   right: 65px;
+  outline-color: black;
+  position: absolute;
+  right: 127px;
+  top: -3px;
 }
 
 .features {
@@ -118,9 +119,10 @@ input[type=email]::placeholder {
   background-color: #F8F8F8;
   width: 540px;
   border-radius: 20px;
+  margin: 0 auto 120px;
 }
 .features__feature-block .feature-block__title {
-  margin: 40px auto 20px;
+  margin: 40px 40px 20px;
   font-size: 18px;
   line-height: 20px;
   opacity: 0.6;
@@ -146,20 +148,26 @@ input[type=email]::placeholder {
 .gallery {
   color: black;
   width: 1100px;
-  margin: 120px auto 0;
+  margin: 0 auto 0;
   display: grid;
 }
 .gallery .gallery__images {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 25px;
-  margin: 120px auto 0;
+  margin: 120px auto 120px;
 }
 .gallery .images__image {
   width: 350px;
+  height: 709px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .gallery .gallery__title {
-  margin: 120px auto 0;
+  margin: 0 auto 0;
+}
+.gallery .gallery__subtitle {
+  margin: 25px auto 0;
 }
 
 .feedback {
@@ -174,7 +182,7 @@ input[type=email]::placeholder {
 }
 .feedback .feedback__title {
   padding-top: 60px;
-  margin: 60px auto 0;
+  margin: 120px auto 0;
   max-width: 500px;
   font-weight: 600;
   font-size: 32px;
@@ -234,11 +242,13 @@ input[type=email]::placeholder {
 .feedback .form__handlers {
   border: none;
   margin-top: 20px;
+  padding: 0;
   position: relative;
 }
 .feedback .form__confirm-button {
   width: 194px;
   height: 54px;
+  margin-right: -40px;
   font-size: 16px;
   line-height: 24px;
   background-color: black;
@@ -263,30 +273,27 @@ input[type=email]::placeholder {
   text-align: left;
 }
 .footer .footer__subtitle {
-  width: 540px;
+  max-width: 540px;
   margin: 0 auto 0;
   font-size: 18px;
   line-height: 26px;
   text-align: left;
 }
 .footer .footer__image {
-  width: 350px;
+  width: 460px;
   position: absolute;
-  right: 220px;
-  height: 630px;
-  top: -160px;
+  right: 140px;
+  height: 610px;
+  top: -120px;
 }
 .footer .footer__download-button {
-  margin: 174px auto 60px;
-  min-width: 540;
+  margin: 170px 165px 60px;
+  min-width: 480px;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 25px;
   display: block;
-  height: 54px;
+  height: 55px;
   border: none;
   border-radius: 10px;
-}
-.footer .footer__wrapper {
-  width: 1040px;
 }/*# sourceMappingURL=style.css.map */
