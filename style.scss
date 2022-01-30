@@ -3,6 +3,8 @@ body {
   margin: 0;
 }
 
+//Имзенить разрешение тектста рядом с абсолютными элементами
+
 input[type="text"]::placeholder {  
                   
   padding-left: 10px; 
@@ -68,9 +70,10 @@ $height-pc: 640px;
     }
     
     .header__title{ 
-      max-width: 1100px;
       max-height: max-content;
       margin: 0 auto 28px;
+      margin-left: 160px;
+      max-width: 650px;
       font-weight: bold;
       font-size: 60px;
       line-height: 69px;
@@ -368,9 +371,10 @@ $height-pc: 640px;
     }
 
     .footer__title{
-      max-width: 1100px;
       padding-top: 60px;
       margin: 0 auto 20px;
+      margin-left: 170px;
+      max-width: 460px;
       font-weight: 600;
       font-size: 32px;
       line-height: 38px;
