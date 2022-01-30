@@ -1,0 +1,92 @@
+.footer{
+  margin-top: 120px;
+  position: relative;
+  width: 1420px;
+  background-color: $bg-color-dark;
+  color: white;
+  height: 470px;
+    @media(max-width: 768px) {
+      width: 768px;
+      margin-top: 90px;      
+    }
+    @media(max-width: 320px) {
+      width: 320px;
+      margin-top: 90px;      
+    }
+
+    .footer__title{
+      padding-top: 60px;
+      margin: 0 0 20px 170px;
+      max-width: 460px;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 38px;
+      text-align: left;
+        @media (max-width: 768px) {
+          max-width: 300px;
+          font-size: 32px;
+          line-height: 38px;
+          margin: 0 0 20px 60px;
+          
+        }
+        @media(max-width: 320px) {
+          margin-left: 30px;            
+        }
+    }
+
+    .footer__subtitle{
+      max-width: 1080px;
+      margin: 0 auto 0;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: left;
+        @media (max-width: 768px) {
+          max-width: 640px;
+          font-size: 18px;
+          line-height: 26px;
+        }
+        @media(max-width: 320px) {
+          max-width: 250px;
+        }
+    }
+
+    .footer__image{
+      width: 460px;
+      position: absolute;
+      right: 140px;
+      height: 610px;
+      top: -120px;
+        @media(max-width: 768px) {
+          width: 400px;
+          right: 0px;
+          height: 585px;
+          top: -114px;
+        }
+        @media(max-width: 320px) {
+          display: none;    
+        }      
+    }
+
+    .footer__download-button{
+      margin: 170px 165px 60px;
+      min-width: 480px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 25px;
+      display: block;
+      height: 55px;
+      border: none;
+      border-radius: 10px;
+        @media(max-width: 768px) {
+          margin: 170px 60px 80px;
+          min-width: 236px;
+          height: 45px;
+        } 
+        @media (max-width: 320px) {
+          margin: 140px 24px 80px;
+          min-width: 286px;
+          height: 45px;
+        }   
+    }   
+
+}
