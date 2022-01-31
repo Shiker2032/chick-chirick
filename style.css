@@ -185,7 +185,6 @@ input[type=email]::placeholder {
 }
 @media (max-width: 320px) {
   .features {
-    display: flex;
     flex-flow: column;
     width: 320px;
   }
@@ -504,7 +503,6 @@ input[type=email]::placeholder {
 @media (max-width: 320px) {
   .footer {
     width: 350px;
-    margin-top: 90px;
   }
 }
 .footer .footer__title {
@@ -519,8 +517,6 @@ input[type=email]::placeholder {
 @media (max-width: 768px) {
   .footer .footer__title {
     max-width: 300px;
-    font-size: 32px;
-    line-height: 38px;
     margin: 0 0 20px 60px;
   }
 }
@@ -539,8 +535,6 @@ input[type=email]::placeholder {
 @media (max-width: 768px) {
   .footer .footer__subtitle {
     max-width: 640px;
-    font-size: 18px;
-    line-height: 26px;
   }
 }
 @media (max-width: 320px) {
@@ -590,6 +584,5 @@ input[type=email]::placeholder {
   .footer .footer__download-button {
     margin: 140px 24px 80px;
     min-width: 286px;
-    height: 45px;
   }
 }/*# sourceMappingURL=style.css.map */
