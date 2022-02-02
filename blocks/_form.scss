@@ -56,14 +56,13 @@
     }  
 }
 .form__confirm-button{
-  position: absolute;
   font-size: 16px;
   line-height: 24px;
   width: 194px;
   height: 54px;
   right: 50px;  
   top: -60px;    
-  margin: 0 0 0 -40px;
+  margin: 0 36px;
   background-color: $second-color;
   color: $second-text-color;
     @media(max-width: 768px) {
@@ -76,7 +75,8 @@
     }
 }    
 .form__handlers{
-  position: relative;
+  display: flex;
+  justify-content: end;
   border: none;      
   padding: 0;
   margin-top: 15px;

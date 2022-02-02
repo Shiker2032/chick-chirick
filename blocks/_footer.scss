@@ -1,12 +1,13 @@
 .footer{
   margin-top: 120px;
   position: relative;
-  width: 1420px;
+  width: 98.6%;
   background-color: $bg-color-dark;
   color: white;
   height: 470px;
     @media(max-width: 768px) {
       width: 768px;
+      height: 415px;
       margin-top: 90px;      
     }
     @media(max-width: 320px) {
@@ -32,13 +33,14 @@
     }
 
     .footer__subtitle{
-      max-width: 1080px;
-      margin: 0 auto 0;
+      max-width: 540px;
+      margin: 0 170px 0;
       font-size: 18px;
       line-height: 26px;
       text-align: left;
         @media (max-width: 768px) {
-          max-width: 640px;
+          max-width: 300px;
+          margin: 0 60px;
         }
         @media(max-width: 320px) {
           max-width: 250px;
@@ -50,12 +52,12 @@
       position: absolute;
       right: 140px;
       height: 610px;
-      top: -120px;
+      top: -140px;
         @media(max-width: 768px) {
           width: 400px;
           right: 0px;
-          height: 585px;
-          top: -114px;
+          height: 500px;
+          top: -90px;
         }
         @media(max-width: 320px) {
           display: none;    
@@ -73,7 +75,7 @@
       border: none;
       border-radius: 10px;
         @media(max-width: 768px) {
-          margin: 170px 60px 80px;
+          margin: 130px 60px 80px;
           min-width: 236px;
           height: 45px;
         } 
