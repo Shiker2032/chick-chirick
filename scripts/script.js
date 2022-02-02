@@ -4,6 +4,10 @@ sliderAlive = false;
     $('.features').slick({
       dots: true
     });
+
+    $('.gallery__images').slick({
+      dots: true
+    });
     sliderAlive = true;
   }
   else {
