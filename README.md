@@ -9,3 +9,4 @@
 * CSS
 * JS
 * SCSS
+* Slick-slider
