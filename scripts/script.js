@@ -14,3 +14,12 @@
 //     return
 //   }
 //  });
+
+let textFields = document.querySelectorAll(".form__field");
+textFields.forEach((field) => {
+  field.addEventListener("click", () => {
+    field.style.cursor = "initial";
+  })
+})
+
+console.log()

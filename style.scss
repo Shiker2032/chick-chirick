@@ -1,13 +1,3 @@
-input[type="text"]::placeholder {  
-                  
-  padding-left: 10px; 
-} 
-
-input[type="email"]::placeholder {              
- 
-  padding-left: 10px; 
-} 
-
 @import "./utilities/variables";
 @import "./blocks/page";
 @import "./blocks/button";
