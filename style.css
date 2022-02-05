@@ -127,8 +127,10 @@
 @media (max-width: 320px) {
   .header .header__button {
     margin: 0;
-    width: 262px;
     margin-left: 27px;
+    width: 262px;
+    font-size: 12px;
+    line-height: 15px;
   }
 }
 .header .header__main-image {
@@ -324,6 +326,12 @@
     max-width: 650px;
   }
 }
+@media (max-width: 320px) {
+  .gallery .gallery__subtitle {
+    font-size: 26px;
+    line-height: 31px;
+  }
+}
 
 .feedback .feedback__form {
   border-radius: 10px;
@@ -463,7 +471,7 @@
 @media (max-width: 320px) {
   .form__confirm-button {
     width: 260px;
-    margin: 0 -30px 0;
+    margin: 0 auto 0;
   }
 }
 
@@ -499,6 +507,8 @@
 @media (max-width: 320px) {
   .footer {
     width: 350px;
+    font-size: 24px;
+    line-height: 29px;
   }
 }
 .footer .footer__title {
@@ -537,6 +547,8 @@
 @media (max-width: 320px) {
   .footer .footer__subtitle {
     max-width: 250px;
+    font-size: 12px;
+    line-height: 15px;
   }
 }
 .footer .footer__image {

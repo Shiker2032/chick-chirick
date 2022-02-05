@@ -83,8 +83,10 @@
         }
         @media(max-width: 320px) {
           margin: 0;
-          width: 262px;
           margin-left: 27px;        
+          width: 262px;
+          font-size: 12px;
+          line-height: 15px;
         }
     }
     
