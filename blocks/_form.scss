@@ -6,6 +6,8 @@
   margin: 100px 40px;
     @media (max-width: 320px) {
       margin: 70px 15px;
+      max-width: 260px;
+      padding: 0;
     }
 }
 
@@ -35,9 +37,13 @@
     @media (max-width: 768px) {
       flex-flow: column;
       justify-content: space-between;
-      max-width: 470px;
+      width: 470px;
       height: 128px;
       margin: 0 auto;
+    }
+    @media (max-width: 320px) {
+      width: 260px;
+      margin: 0;
     }
 }
 
@@ -93,5 +99,6 @@
     }
     @media (max-width: 320px) {
       display: block;
+      width: 260px;
     }
 }  

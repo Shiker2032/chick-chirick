@@ -27,7 +27,7 @@
 
 .header {
   position: relative;
-  width: 98.6%;
+  width: 1420px;
   height: 650px;
   margin: 0 auto 60px;
   background-color: #222222;
@@ -35,6 +35,7 @@
 }
 @media (max-width: 768px) {
   .header {
+    width: 748px;
     height: 610px;
     margin: 0 auto 80px;
   }
@@ -131,6 +132,7 @@
     margin: 0;
     margin-left: 27px;
     width: 262px;
+    height: 40px;
     font-size: 12px;
     line-height: 15px;
   }
@@ -153,7 +155,7 @@
 @media (max-width: 320px) {
   .header .header__main-image {
     position: static;
-    width: 305px;
+    width: 300px;
     height: 640px;
     margin-top: -27px;
   }
@@ -176,7 +178,7 @@
 @media (max-width: 320px) {
   .features {
     flex-flow: column;
-    width: 320px;
+    width: 300px;
   }
 }
 
@@ -195,6 +197,7 @@
 @media (max-width: 320px) {
   .feature-block {
     margin: 0 0 60px;
+    width: 300px;
   }
 }
 .feature-block .feature-block__title {
@@ -377,6 +380,11 @@
     margin-top: 30px;
   }
 }
+@media (max-width: 320px) {
+  .feedback .feedback__title {
+    max-width: 300px;
+  }
+}
 .feedback .feedback__subtitle {
   text-align: center;
   font-size: 16px;
@@ -401,6 +409,8 @@
 @media (max-width: 320px) {
   .form__inputs {
     margin: 70px 15px;
+    max-width: 260px;
+    padding: 0;
   }
 }
 
@@ -434,9 +444,15 @@
   .form__inputs_upper {
     flex-flow: column;
     justify-content: space-between;
-    max-width: 470px;
+    width: 470px;
     height: 128px;
     margin: 0 auto;
+  }
+}
+@media (max-width: 320px) {
+  .form__inputs_upper {
+    width: 260px;
+    margin: 0;
   }
 }
 
@@ -505,12 +521,13 @@
 @media (max-width: 320px) {
   .form__handlers {
     display: block;
+    width: 260px;
   }
 }
 
 .footer {
   position: relative;
-  width: 98.6%;
+  width: 1420px;
   height: 470px;
   margin: 120px auto 0;
   background-color: #222222;
@@ -519,7 +536,7 @@
 }
 @media (max-width: 768px) {
   .footer {
-    width: 745px;
+    width: 748px;
     height: 415px;
     margin-top: 90px;
   }
@@ -596,6 +613,7 @@
 @media (max-width: 320px) {
   .footer .footer__image {
     display: none;
+    width: 300px;
   }
 }
 .footer .footer__download-button {
@@ -621,4 +639,8 @@
     margin: 90px 24px 80px;
     width: 260px;
   }
+}
+
+* {
+  outline: 2px dotted red;
 }/*# sourceMappingURL=style.css.map */

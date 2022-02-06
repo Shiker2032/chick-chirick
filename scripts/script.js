@@ -1,4 +1,15 @@
 sliderAlive = false;
+if(window.outerWidth <= 320) {
+  $('.features').slick({
+    dots: true
+  });
+
+  $('.gallery__images').slick({
+    dots: true
+  });
+  sliderAlive = true;
+}
+
  window.addEventListener("resize", () => {
   if ((!sliderAlive) && (window.outerWidth <= 320)) {
     $('.features').slick({
@@ -24,5 +35,7 @@ textFields.forEach((field) => {
 
 console.log()
 
-headerImg = document.querySelector(".header__main-image");
-headerImg.style.src = "./images/header-phone_mob.png";
+// headerImg = document.querySelector(".header__main-image");
+// headerImg.style.src = "./images/header-phone_mob.png";
+
+//  TODO: Исправить путь каритнки    

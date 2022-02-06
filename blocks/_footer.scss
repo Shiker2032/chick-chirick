@@ -1,13 +1,13 @@
 .footer{
   position: relative;
-  width: 98.6%;
+  width: 1420px;
   height: 470px;
   margin: 120px auto 0;
   background-color: $bg-color-dark;
   color: white;
   border-radius: 20px;
     @media(max-width: 768px) {
-      width: 745px;
+      width: 748px;
       height: 415px;
       margin-top: 90px;      
     }
@@ -71,7 +71,8 @@
           top: -90px;
         }
         @media(max-width: 320px) {
-          display: none;    
+          display: none;
+          width: 300px;    
         }      
     }
 
