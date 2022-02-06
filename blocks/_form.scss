@@ -32,6 +32,9 @@
         font-size: 12px;
       }
   }
+  &__field::textarea {
+    color: red;
+  }
   
   &__inputs_upper {
     display: flex;
