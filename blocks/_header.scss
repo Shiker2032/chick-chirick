@@ -16,7 +16,7 @@
       border-radius: 10px;
     }
 
-    .header__logo {
+    &__logo {
       width: 350px;
       max-height: 40px;     
       padding-top: 40px;
@@ -32,7 +32,7 @@
         }
     }
     
-    .header__title{ 
+    &__title{ 
       max-width: 650px;
       margin: 0 auto 28px 160px;
       font-weight: bold;
@@ -53,7 +53,7 @@
         }
     }
 
-    .header__text{
+    &__text{
       max-width: 450px; 
       margin: 0 160px;
       font-size: 18px;
@@ -74,7 +74,7 @@
         }
     }
 
-    .header__button{
+    &__button{
       width: 240px;
       height: 54px;
       margin: 105px 0 0 160px;
@@ -94,7 +94,7 @@
         }
     }
     
-  .header__main-image{    
+  &__main-image{    
     position: absolute;
     width: 448px;
     height: 769px;

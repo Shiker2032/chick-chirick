@@ -1,5 +1,5 @@
 .feedback {
-    .feedback__form {
+    &__form {
       border-radius: 10px;
       width: 1100px;   
       height: 628px;
@@ -15,7 +15,7 @@
         }       
     }
 
-    .feedback__title{
+    &__title{
       text-align: center;
       font-weight: 600;
       font-size: 32px;
@@ -32,7 +32,8 @@
           max-width: 300px;
         }      
     }
-    .feedback__subtitle {
+    
+    &__subtitle {
       text-align: center;
       font-size: 16px;
       line-height: 24px;

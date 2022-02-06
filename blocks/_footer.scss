@@ -19,7 +19,7 @@
       height: 260px;
     }
 
-    .footer__title{
+    &__title{
       padding-top: 60px;
       margin: 0 0 20px 170px;
       max-width: 460px;
@@ -40,7 +40,7 @@
         }
     }
 
-    .footer__subtitle{
+    &__subtitle{
       max-width: 540px;
       margin: 0 170px 0;
       font-size: 18px;
@@ -58,7 +58,7 @@
         }
     }
 
-    .footer__image{
+    &__image{
       width: 460px;
       position: absolute;
       right: 140px;
@@ -76,7 +76,7 @@
         }      
     }
 
-    .footer__download-button{
+    &__download-button{
       margin: 40px 165px 60px;
       width: 480px;
       font-weight: 600;
