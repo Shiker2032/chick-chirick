@@ -5,7 +5,7 @@
   max-width: 980px;   
   margin: 100px 40px;
     @media (max-width: 320px) {
-      margin: 100px 15px;
+      margin: 70px 15px;
     }
 }
 
@@ -26,6 +26,7 @@
   }
     @media (max-width: 320px) {
       width: 250px;
+      font-size: 12px;
     }
 }
 
@@ -89,5 +90,8 @@
   margin-top: 15px;
     @media (max-width: 768px) {
       margin-top: 40px;
+    }
+    @media (max-width: 320px) {
+      display: block;
     }
 }  

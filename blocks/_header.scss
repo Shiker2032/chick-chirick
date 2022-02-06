@@ -11,7 +11,7 @@
     }
     @media(max-width: 320px) {
       height: 900px;
-      width: 350px;
+      width: 300px;
       border-radius: 10px;
     }
 
@@ -48,6 +48,7 @@
           max-width: 260px;
           font-size: 24px;
           line-height: 29px;
+          margin: 0 20px 15px;
         }
     }
 
@@ -68,6 +69,7 @@
           max-width: 260px;
           font-size: 12px;
           line-height: 15px;
+          margin: 0 20px 0;
         }
     }
 
@@ -104,8 +106,9 @@
       }
       @media(max-width: 320px) {
         position: static;
-        width: 315px;
-        height: 605px;
+        width: 305px;
+        height: 640px;
+        margin-top: -27px;
       }
   }
 }
