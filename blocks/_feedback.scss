@@ -1,19 +1,7 @@
 .feedback {
-    &__form {
-      border-radius: 10px;
-      width: 1100px;   
-      height: 628px;
-      margin: 0 auto;
-      background-color: $bg-color-dim;
-        @media (max-width: 768px) {
-          width: 708px;
-          height: 611px;
-        }  
-        @media (max-width: 320px) {
-          width: 300px;
-          height: 614px;
-        }       
-    }
+    
+          
+    
 
     &__title{
       text-align: center;
