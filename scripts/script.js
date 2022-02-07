@@ -33,11 +33,3 @@ textFields.forEach((field) => {
     field.style.color = "black";
   })
 })
-
-
-console.log()
-
-// headerImg = document.querySelector(".header__main-image");
-// headerImg.style.src = "./images/header-phone_mob.png";
-
-//  TODO: Исправить путь каритнки    
