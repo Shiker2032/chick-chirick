@@ -15,8 +15,8 @@
       width: 300px;
       font-size: 24px;
       line-height: 29px;  
-      margin-top: 110px;  
-      height: 260px;
+      margin-top: 115px;  
+      height: 270px;
     }
 
     &__title{
@@ -92,7 +92,7 @@
           height: 50px;
         } 
         @media (max-width: 320px) {
-          margin: 90px 24px 80px;
+          margin: 90px 20px 80px;
           width: 260px;       
         }   
     }

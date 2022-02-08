@@ -4,7 +4,7 @@ if(window.outerWidth <= 320) {
     dots: true
   });
 
-  $('.gallery__images').slick({
+  $('.images').slick({
     dots: true
   });
   sliderAlive = true;
@@ -16,7 +16,7 @@ if(window.outerWidth <= 320) {
       dots: true
     });
 
-    $('.gallery__images').slick({
+    $('.images').slick({
       dots: true
     });
     sliderAlive = true;

@@ -8,7 +8,7 @@
       margin: 0 0 60px;
     }
     @media (max-width: 320px) {
-      margin: 0 0 60px;
+      margin: 0 0 45px;
       width: 300px;
     }
 
@@ -22,7 +22,7 @@
           font-size: 15px;
           line-height: 20px;
           max-width: 285px;
-          margin: 25px auto 10px;
+          margin: 25px 20px 0;
         }        
     }
 
@@ -37,7 +37,7 @@
         font-size: 26px;
         line-height: 31px;
         max-width: 270px;   
-        margin: 0 30px 30px;  
+        margin: 0 20px 30px;  
       }
     }
     &__description{
@@ -49,7 +49,7 @@
         @media (max-width: 768px) {
           font-size: 15px;
           line-height: 20px;
-          max-width: 280px;
+          max-width: 265px;
         }
     }
 }
