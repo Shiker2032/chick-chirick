@@ -1,3 +1,9 @@
+sumbitFeedbackBtn = document.querySelector("#submit-feedback-btn");
+sumbitFeedbackBtn.addEventListener("submit", (event) => {
+  event.preventDefault();
+  console.log("click");
+})
+
 sliderAlive = false;
 if(window.outerWidth <= 320) {
   $('.features').slick({
@@ -34,4 +40,3 @@ textFields.forEach((field) => {
   })
 })
 
-console.log(textFields);

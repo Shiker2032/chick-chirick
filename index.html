@@ -64,14 +64,14 @@
             <h3 class="feedback__title">Хотите нам что-то посоветовать?</h3>
             <p class="feedback__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
             <div class="form__inputs">              
-                <input type="text" class="form__field" placeholder="Ваше Имя">
-                <input type="email" class="form__field" placeholder="Контактный Email">
+                <input type="text" class="form__field" placeholder="Ваше Имя" required>
+                <input type="email" class="form__field" placeholder="Контактный Email" required>
             </div>
           
-                <input type="text" class="form__message-field" placeholder="сообщение">   
+                <input type="text" class="form__message-field" placeholder="сообщение" required>   
         
             <div class="form__handlers">
-              <button class="form__confirm-button button" type="button">Оставить заявку</button>
+              <button class="form__confirm-button button" type="submit" id="submit-feedback-btn">Оставить заявку</button>
             </div>            
           </form>          
         </section>                
