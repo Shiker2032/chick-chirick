@@ -1,11 +1,5 @@
-sumbitFeedbackBtn = document.querySelector("#submit-feedback-btn");
-sumbitFeedbackBtn.addEventListener("submit", (event) => {
-  event.preventDefault();
-  console.log("click");
-})
-
 sliderAlive = false;
-if(window.outerWidth <= 320) {
+if(window.outerWidth < 761) {
   $('.features').slick({
     dots: true
   });
@@ -17,7 +11,7 @@ if(window.outerWidth <= 320) {
 }
 
  window.addEventListener("resize", () => {
-  if ((!sliderAlive) && (window.outerWidth <= 320)) {
+  if ((!sliderAlive) && (window.outerWidth < 761)) {
     $('.features').slick({
       dots: true
     });
@@ -40,3 +34,7 @@ textFields.forEach((field) => {
   })
 })
 
+let feedbackForm = document.querySelector("#feedback-form");
+feedbackForm.onsubmit = ((event) => {
+  event.preventDefault();
+});

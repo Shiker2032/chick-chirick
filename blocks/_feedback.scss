@@ -1,19 +1,21 @@
 .feedback {
-    &__title{
+  
+    &__title {
       text-align: center;
       font-weight: 600;
       font-size: 32px;
       line-height: 38px;
-      padding-top: 70px;
+      padding-top: 55px;
       max-width: 500px;
       margin: 120px auto 0;
-        @media (max-width: 768px) {
+        @media (max-width: $tablet-BP) {
           font-size: 25px;
           line-height: 30px;
-          margin-top: 30px;          
+          margin-top: 45px;
         } 
-        @media (max-width: 320px) {
+        @media (max-width: $mobile-BP) {
           max-width: 300px;
+          padding-top: 45px;
         }      
     }
     
@@ -24,7 +26,7 @@
       max-width: 500px;  
       margin: 20px auto 0;     
       opacity: 0.6;
-        @media (max-width: 320px) {
+        @media (max-width: $mobile-BP) {
           max-width: 260px;
         }
     }

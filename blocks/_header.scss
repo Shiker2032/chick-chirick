@@ -2,50 +2,51 @@
   position: relative;
   width: 1420px;  
   height: 650px;
+  border-radius: 20px;
   margin: 0 auto 60px;  
   background-color: $bg-color-dark;
-  border-radius: 20px;
-    @media(max-width: 768px) {
+    @media(max-width: $tablet-BP) {
       width: 748px;
       height: 610px;
       margin: 0 auto 80px;  
     }
-    @media(max-width: 320px) {
+    @media(max-width: $mobile-BP) {
       height: 905px;
       width: 300px;
       border-radius: 10px;
+      margin: 0 auto 65px;
     }
 
     &__logo {
       width: 350px;
-      max-height: 40px;     
+      max-height: 40px;
       padding-top: 40px;
-      margin: 0 auto 60px;      
-        @media (max-width: 768px) {
-          width: 150px;
-          margin: 0 auto 50px;
+      margin: 0 auto 60px;
+      @media (max-width: $tablet-BP) {
+        width: 140px;
+        margin: 0 auto 50px;
+      }
+      @media (max-width: $mobile-BP) {
+        width: 80px;
+        padding-top: 30px;
+        margin: 0 auto 45px;
         }
-        @media (max-width: 320px) {
-          width: 80px;
-          padding-top: 30px;
-          margin: 0 auto 50px;
-        }
-    }
+      }
     
-    &__title{ 
+    &__title { 
       max-width: 650px;
-      margin: 0 auto 28px 160px;
+      margin: 0 160px 28px;
       font-weight: bold;
       font-size: 60px;
       line-height: 69px;
       color: $main-color;
-        @media (max-width: 768px) {
-          max-width: 360px;;
+        @media (max-width: $tablet-BP) {
+          max-width: 360px;
           font-size: 33px;
           line-height: 37px;
-          margin: 0 55px 15px;
+          margin: 0 50px 15px;
         }
-        @media (max-width: 320px) {
+        @media (max-width: $mobile-BP) {
           max-width: 260px;
           font-size: 24px;
           line-height: 29px;
@@ -53,20 +54,20 @@
         }
     }
 
-    &__text{
+    &__text {
       max-width: 450px; 
       margin: 0 160px;
       font-size: 18px;
       line-height: 26px;          
       color: $main-color;
       opacity: 0.7;     
-        @media (max-width: 768px) {
+        @media (max-width: $tablet-BP) {
           max-width: 350px;
           margin: 0 55px 0;
           font-size: 15px;
           line-height: 20px;
         }
-        @media (max-width: 320px) {
+        @media (max-width: $mobile-BP) {
           max-width: 260px;
           font-size: 12px;
           line-height: 15px;
@@ -75,22 +76,22 @@
     }
 
     &__button{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
       width: 240px;
       height: 54px;
-      margin: 105px 0 0 160px;
-      font-size: 16px;
-      line-height: 24px;
-        @media (max-width: 768px) {
-          margin: 250px 0 0 55px;
+      margin: 105px 160px 0;
+        @media (max-width: $tablet-BP) {
+          margin: 250px 50px 0;
           height: 50px;
         }
-        @media(max-width: 320px) {
-          margin: 0;
-          margin-left: 27px;        
-          width: 262px;
-          height: 40px;
+        @media(max-width: $mobile-BP) {
           font-size: 12px;
           line-height: 15px;
+          width: 262px;
+          height: 40px;
+          margin: 0 20px 0;        
         }
     }
     
@@ -100,17 +101,17 @@
     height: 769px;
     right: 150px;
     top: -3px;
-      @media (max-width: 768px) {
+      @media (max-width: $tablet-BP) {
         right: -20px;
-        top: 80px;
-        width: 390px;
+        top: 85px;
+        width: 380px;
         height: 620px;
       }
-      @media(max-width: 320px) {
+      @media(max-width: $mobile-BP) {
         position: static;
         width: 355px;
         height: 610px;
-        margin: 5px -30px 0;
+        margin: 10px -30px 0;
       }
   }
 }

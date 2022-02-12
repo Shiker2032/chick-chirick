@@ -1,55 +1,63 @@
-.feature-block{  
+.feature-block {  
   width: 540px; 
   border-radius: 20px;
   margin: 0 0 120px;
   background-color: $bg-color-dim;
-    @media (max-width: 768px) {
+    @media (max-width: $tablet-BP) {
       width: 350px;
       margin: 0 0 60px;
     }
-    @media (max-width: 320px) {
+    @media (max-width: $mobile-BP) {
       margin: 0 0 45px;
       width: 300px;
     }
 
-    &__title{
+    &__title {
       font-size: 18px;
       line-height: 20px;
       max-width: max-content;
       margin: 40px 40px 20px;      
       opacity: 0.6;
-        @media (max-width: 768px) {
+        @media (max-width: $tablet-BP) {
           font-size: 15px;
-          line-height: 20px;
           max-width: 285px;
-          margin: 25px 20px 0;
-        }        
+          margin: 25px 30px 0;
+        } 
+        @media (max-width: $mobile-BP) {
+          margin: 30px 20px 0;
+        }       
     }
 
-    &__subtitle{
+    &__subtitle {
       font-weight: 600;
       font-size: 32px;
       line-height: 38px;
       max-width: 460px;
       min-height: 80px;
       margin: 0 40px 40px;
-      @media (max-width: 768px) {
+      @media (max-width: $tablet-BP) {
         font-size: 26px;
         line-height: 31px;
         max-width: 270px;   
-        margin: 0 20px 30px;  
+        margin: 10px 30px 30px;  
+      }
+      @media (max-width: $mobile-BP) {
+        margin: 10px 20px 30px;
       }
     }
-    &__description{
+    &__description {
       max-width: 460px;
       font-size: 16px;
       line-height: 24px;
       margin: 0 auto 40px;
       opacity: 0.6;
-        @media (max-width: 768px) {
+        @media (max-width: $tablet-BP) {
           font-size: 15px;
           line-height: 20px;
-          max-width: 265px;
+          max-width: 290px;
+        }
+        @media (max-width: $mobile-BP) {
+          max-width: 260px;
         }
     }
 }
