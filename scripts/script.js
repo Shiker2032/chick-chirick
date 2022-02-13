@@ -31,6 +31,8 @@ if(window.outerWidth < 761) {
  });
 
 let textFields = document.querySelectorAll(".form__field, .form__message-field");
+let feedbackForm = document.querySelector("#feedback-form");
+
 textFields.forEach((field) => {
   field.addEventListener("click", () => {
     field.style.cursor = "initial";
@@ -38,7 +40,6 @@ textFields.forEach((field) => {
   })
 })
 
-let feedbackForm = document.querySelector("#feedback-form");
 feedbackForm.onsubmit = ((event) => {
   event.preventDefault();
 });
