@@ -1,11 +1,13 @@
 sliderAlive = false;
 if(window.outerWidth < 761) {
-  $('.features').slick({
-    dots: true
+  $('.features').slick({    
+    dots: true,
+    arrows:false
   });
 
   $('.images').slick({
-    dots: true
+    dots: true,
+    arrows: false
   });
   sliderAlive = true;
 }
@@ -13,11 +15,13 @@ if(window.outerWidth < 761) {
  window.addEventListener("resize", () => {
   if ((!sliderAlive) && (window.outerWidth < 761)) {
     $('.features').slick({
-      dots: true
+      dots: true,
+      arrows: false  
     });
 
     $('.images').slick({
-      dots: true
+      dots: true,
+      arrows: false
     });
     sliderAlive = true;
   }

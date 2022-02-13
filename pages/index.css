@@ -156,9 +156,9 @@
 @media (max-width: 760px) {
   .header__main-image {
     position: static;
-    width: 355px;
+    width: 300px;
     height: 610px;
-    margin: 10px -30px 0;
+    margin: 10px 0 0;
   }
 }
 
@@ -502,6 +502,8 @@
 }
 @media (max-width: 760px) {
   .form__confirm-button {
+    font-size: 12px;
+    line-height: 24px;
     width: 260px;
     margin: 0 20px 0;
     height: 45px;
@@ -633,8 +635,10 @@
 }
 @media (max-width: 760px) {
   .footer__download-button {
+    font-size: 12px;
+    line-height: 24px;
     width: 260px;
     height: 45px;
     margin: 95px 20px 80px;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */

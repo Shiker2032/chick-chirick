@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="./vendor/slick/slick.css">
     <link rel="stylesheet" href="./vendor/slick/slick-theme.css">    
@@ -55,12 +55,12 @@
           <h3 class="gallery__subtitle">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</h3>
         </section>                    
         <section class="feedback">
-          <form class="form" id="feedback-form">
+          <form class="form" id="feedback-form" name="feedback-form">
             <h3 class="feedback__title">Хотите нам что-то посоветовать?</h3>
             <p class="feedback__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
             <div class="form__inputs">
-              <input type="text" class="form__field" placeholder="Ваше Имя" required>
-              <input type="email" class="form__field" placeholder="Контактный Email" required>
+              <input type="text" class="form__field" name="user-name-input" placeholder="Ваше Имя" required>
+              <input type="email" class="form__field" name="user-email-input" placeholder="Контактный Email" required>
             </div>
             <input type="text" class="form__message-field" placeholder="сообщение" required>
             <div class="form__handlers">

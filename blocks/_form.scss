@@ -91,6 +91,8 @@
           margin: 0 auto 0;
         }
         @media (max-width: $mobile-BP) {
+          font-size: 12px;
+          line-height: 24px;
           width: 260px;
           margin: 0 20px 0;
           height: 45px;
