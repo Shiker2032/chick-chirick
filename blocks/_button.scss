@@ -1,0 +1,12 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  background-color: $main-color;
+  color: $main-text-color;
+  padding: 0;
+  transition: 0.3s linear;
+    &:hover{
+      opacity: 0.7;
+      cursor: pointer;
+    }
+}

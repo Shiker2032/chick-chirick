@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 1100px;
+  margin: 0 auto;
+  color: $main-text-color;
+    @media (max-width: $tablet-BP) {
+      width: 750px;
+      gap: 10px;
+    }
+    @media (max-width: $mobile-BP) {
+      flex-flow: column;
+      width: 300px;
+    }
+}
